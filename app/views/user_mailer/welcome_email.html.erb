@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+    <%= stylesheet_link_tag 'application' %>
+  </head>
+  <body>
+    <div class="email-container">
+      <img class="email-heading-pic" src="https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="email-banner"/>
+      <h1>Welcome to OrthoDoc Instrument Manual, <%= @user.first_name %></h1>
+
+      <div class="msg-container">
+        <p>
+          You have successfully activated your account!
+          your username is: <%= @user.username %>.<br>
+        </p>
+        <p>
+          To login to the website, just follow this link: <%= link_to @url %>.
+        </p>
+        <p>Thanks for joining and have a great day!</p>
+      </div>
+      
+      <div class="footer-container">
+          <span>&#40;914&#41;923-5089</span><br/>
+          <span>449 N State Rd #101, Briarcliff Manor, NY 10510</span><br/>
+          <a href="https://orthodonticharmony.com/" target="_blank">https://orthodonticharmony.com/</a><br/>
+          <span>© 2023 Orthodontic Harmony</span>
+      </div>
+    </div>
+    
+  </body>
+</html>

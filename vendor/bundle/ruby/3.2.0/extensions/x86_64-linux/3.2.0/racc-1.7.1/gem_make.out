@@ -1,0 +1,20 @@
+current directory: /mnt/c/Users/jeffk/Desktop/development/ortho-doc-instrument-manual-api/vendor/bundle/ruby/3.2.0/gems/racc-1.7.1/ext/racc/cparse
+/usr/share/rvm/rubies/ruby-3.2.2/bin/ruby extconf.rb
+checking for rb_block_call()... yes
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /mnt/c/Users/jeffk/Desktop/development/ortho-doc-instrument-manual-api/vendor/bundle/ruby/3.2.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230715-4422-asutck sitelibdir\=./.gem.20230715-4422-asutck clean
+
+current directory: /mnt/c/Users/jeffk/Desktop/development/ortho-doc-instrument-manual-api/vendor/bundle/ruby/3.2.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230715-4422-asutck sitelibdir\=./.gem.20230715-4422-asutck
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /mnt/c/Users/jeffk/Desktop/development/ortho-doc-instrument-manual-api/vendor/bundle/ruby/3.2.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230715-4422-asutck sitelibdir\=./.gem.20230715-4422-asutck install
+/usr/bin/install -m 0755 cparse.so ./.gem.20230715-4422-asutck/racc
+
+current directory: /mnt/c/Users/jeffk/Desktop/development/ortho-doc-instrument-manual-api/vendor/bundle/ruby/3.2.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230715-4422-asutck sitelibdir\=./.gem.20230715-4422-asutck clean

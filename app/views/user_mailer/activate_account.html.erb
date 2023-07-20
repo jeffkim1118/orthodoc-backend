@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+    <%= stylesheet_link_tag 'application' %>
+  </head>
+  <body>
+    <div class="email-container">
+      <div>
+      <img class="email-heading-pic" src="https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="email-banner"/>
+      </div>
+      
+      <div class="msg-container">
+      <h1>OrthoDoc Instrument Manual Account Activation</h1>
+      <p>
+        You have successfully signed up to OrthoDoc Instrument Manual,
+        your username is: <%= @user.username %>.<br>
+        The last step to use your account is to activate the account using the link provided below.<br>
+        After the activation, you can use your username and password to sign in to the website.
+      </p>
+      <p>
+        To activate the account, click this link: <%= link_to "Activate your account now.", edit_account_activation_url(@user.activation_token, email:@user.email, id:@user.id) %>.
+      </p>
+      <p>Thanks for joining and have a great day!</p>
+      </div>
+
+      <div class="footer-container">
+        <span>&#40;914&#41;923-5089</span><br/>
+        <span>449 N State Rd #101, Briarcliff Manor, NY 10510</span><br/>
+        <a href="https://orthodonticharmony.com/" target="_blank">https://orthodonticharmony.com/</a><br/>
+        <span>© 2023 Orthodontic Harmony</span>
+      </div>
+    </div>
+    
+  </body>
+</html>

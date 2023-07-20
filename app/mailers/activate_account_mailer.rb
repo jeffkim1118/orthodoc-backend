@@ -1,0 +1,2 @@
+class ActivateAccountMailer < ApplicationMailer
+end
