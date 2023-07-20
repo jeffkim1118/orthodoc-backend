@@ -49,7 +49,7 @@ gem 'mail'
 # gem 'capistrano-rails', group: :development
 
 # Reduces boot times through caching; required in config/boot.rb
-gem 'bootsnap', '>= 1.1.0', require: false
+gem 'bootsnap', '~> 1.16', require: false
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -80,4 +80,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "jsonapi-serializer", "~> 2.2"
 
-gem 'bundler', '~> 2.3', '>= 2.3.5'
+gem 'bundler', '~> 2.4.10'
