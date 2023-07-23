@@ -12,7 +12,7 @@ module OrthoDocInstrumentManualApi
     config.load_defaults 5.2
 
     # This is for heroku deployment (Prevent precompiling process before deploying to heroku)
-    config.assets.enabled = false
+    config.assets.initialize_on_precompile = false
     # Configuration for the application, engines, and railties goes here.
     #
     # These settings can be overridden in specific environments using the files
