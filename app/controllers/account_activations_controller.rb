@@ -9,7 +9,7 @@ class AccountActivationsController < ApplicationController
             token = get_token(payload(@user.username, @user.id))
             UserMailer.welcome_email(@user)
           
-            redirect_to "http://localhost:3001/login"
+            redirect_to "https://orthodocinstrumentmanual.web.app/login"
         else
             if !@user
                 render json: { message: "The user doesn't exist! Please register first."}
@@ -18,7 +18,7 @@ class AccountActivationsController < ApplicationController
             else
                 UserMailer.activate_account(@user)
             end
-            redirect_to "http://localhost:3001/login"
+            redirect_to "https://orthodocinstrumentmanual.web.app/login"
         end
     end
 end
