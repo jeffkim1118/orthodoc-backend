@@ -1,6 +1,6 @@
 require "active_support/core_ext/integer/time"
 Rails.application.routes.default_url_options = {
-  host: "http://localhost:3000"
+  host: "https://orthodoc-backend-88937012f308.herokuapp.com"
 }
 
 Rails.application.configure do
