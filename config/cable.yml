@@ -6,5 +6,5 @@ test:
 
 production:
   adapter: redis
-  url: <%= ENV.fetch("REDIS_URL") { "redis://localhost:6379/1" } %>
+  url: redis://:p65e67b58d477cc602224aed14fe6b6b411b9bc0f74c16e33daac021dc3e22edf@ec2-54-237-169-13.compute-1.amazonaws.com:30099
   channel_prefix: ortho_doc_instrument_manual_api_production
