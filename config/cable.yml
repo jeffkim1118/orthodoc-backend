@@ -6,5 +6,5 @@ test:
 
 production:
   adapter: redis
-  url: redis://:p65e67b58d477cc602224aed14fe6b6b411b9bc0f74c16e33daac021dc3e22edf@ec2-54-237-169-13.compute-1.amazonaws.com:30099
+  url: rediss://:paa9e6611a20efddca29a54385e27d921bdba39d0d6d19089ff4ca454f60020a7@ec2-54-197-136-218.compute-1.amazonaws.com:25370
   channel_prefix: ortho_doc_instrument_manual_api_production
